@@ -1,21 +1,15 @@
 {
-  "name": "via-varejo-api",
+  "name": "api-teste-arquivo",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Esse é um repositório que pode ser usado como ponto de partida para desenvolvimento com Nodejs e Typescript. Para esse projeto, foi construído uma API de usuário que faz conexão com o mongodb, além disso possui testes unitários integrado com mocha e chai. Esse repositório já vem junto com arquivos dockerfile e docker-compose que podem ser usado em um fluxo de CI/CD.",
+  "main": "src/index.js",
   "scripts": {
-    "build": "tsc",
-    "dev": "nodemon -x ts-node ./src/server.ts",
-    "start": "node ./dist/server.js",
-    "prod": "npm run build && npm run start",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1",
-    "ts-node": "^8.10.2",
-    "typescript": "^3.9.7"
+    "express": "^4.17.1"
   }
 }
